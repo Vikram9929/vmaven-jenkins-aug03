@@ -7,7 +7,7 @@ pipeline{
                 stages('mevan testing'){
                     steps{withMaven(globalMavenSettingsConfig: '', jdk: 'JAVA_HOME', maven: 'MAVEN_HOME', mavenSettingsConfig: '', traceability: true) {
     // some block
-}}
+}}0}
                 }
         
         }
